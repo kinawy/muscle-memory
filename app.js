@@ -12,7 +12,7 @@ console.log(str, num, boo, favTeams, mySelf);
 
 let arrFunc = function(array) {
     for (let i =0; i<= array.length; i++) {
-        let how = array[i]);
+        return array[i];
     }
 }
 
@@ -27,7 +27,7 @@ let callFunc2 = function(type) {
 }
 
 let callFunc = function (callback) {
-    if (callback === true) {
+    if (callback === 5) {
         console.log('Great Success')
     }
 }
@@ -52,10 +52,35 @@ booFunc(boo);
 
 let ranFun = function(obj) {
     for (let i = 0; i<=obj.length;i++) {
-        let two = obj[i];
+        console.log(obj[i]);
     }
 }
 
-console.log(ranFun(mySelf));
+ranFun(mySelf);
+
+
+const sectionOne = document.getElementById('section1');
+const sectionTwo = document.getElementById('section2');
+const sectionThree = document.querySelector('#section3');
+const sectionFour = document.querySelector('#section4');
+const sectionFive = document.querySelector('#section5');
+
+sectionOne.textContent = 'This is Section One';
+sectionTwo.textContent = 'This is Section Two';
+sectionThree.textContent = 'This is Section Three';
+sectionFour.textContent = 'This is Section Four';
+sectionFive.textContent = 'This is Sectiono Five';
+
+const paraOne = document.querySelector('.paragraph1');
+paraOne.textContent = 'Sameh Kinawy';
+const paraTwo = document.querySelector('.paragraph2');
+paraTwo.textContent = 'Michael Jordan';
+const paraThree = document.querySelector('.paragraph3');
+paraThree.textContent = 'Kemba Walker';
+const paraFour = document.querySelector('.paragraph4');
+paraFour.textContent = 'Jaylen Brown';
+const paraFive = document.querySelector('.paragraph5');
+paraFive.textContent = 'Gordon Hayward';
+
 
 
